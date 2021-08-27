@@ -9,7 +9,6 @@ class minecraft {
   }
   
   package {'java':
-    ensure => present,
     ensure => latest,
   }
  
